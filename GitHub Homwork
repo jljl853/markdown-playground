@@ -1,0 +1,99 @@
+# Getting started with Git Lab
+## Instructions
+In this lab, we'll be going through some basic tasks you'll need to do as you manage the GitHub repository for your CollectionBuilder site. The questions below are designed to help you learn and remember what you need to do to perform these tasks, as well as where you can go to look for help. 
+## Creating your repository and editing files
+**What did you click on to create a new repository in the web interface of Github (i.e., on Github.com)?**
+I click the **"New repository"** button, I found it in the profile tab.
+
+**What is the difference between a private and a public repository?**
+A **public** repository can anyone view it. A **private** repository can only accessible to me and other people who I explicitly share access with him. 
+
+**Once your repository has been made and has at least one file, what button do you need to click on the web interface in order to create a new file in your repository?**
+Click the **"Add file"** button, then choose **" Create new file"**. 
+
+**Describe the steps you took to clone your repository on Github Desktop?**
+1. Copy the repository's URL from GitHub.  
+2. Open GitHub Desktop.  
+3. Click on **"File" > "Clone repository"**.  
+4. Paste the URL and choose your local path.  
+5. Click **"Clone"**. 
+
+**What is the title of GitHub documentation?** 
+**GitHub Docs** 
+
+**What is the URL for GitHub documentation on creating your first repository?**
+[https://docs.github.com/en/get-started/quickstart/create-a-repo](https://docs.github.com/en/get-started/quickstart/create-a-repo)
+ 
+
+**Where is your local repository versus the remote repository?**
+- Local repository: On my computer (cloned using GitHub Desktop).  
+- Remote repository: On GitHub.com, for example: [https://github.com/jljl853/markdown-playground](https://github.com/jljl853/markdown-playground).
+
+**What happens when you fetch?** 
+It checks the remote repository for new commits but does not update my local files.
+
+**What happens when you pull changes/commits?**
+It downloads new commits from the remote repository and merges them into my local repository.
+
+**When working on GitHub Desktop, what order should you generally perform push, pull, and fetch?**
+1. Fetch  
+2. Pull  
+3. Push
+
+**What happens when you push commits from your local repository?**
+My commits are uploaded from my local repository to the remote repository on GitHub.com.
+
+**What is the URL for the Github glossary?**
+[https://docs.github.com/en/get-started/quickstart/github-glossary](https://docs.github.com/en/get-started/quickstart/github-glossary)
+
+**Where can you find a list of your commits?**
+- On GitHub: In the "Commits" section of the repository.  
+- On GitHub Desktop: In the **History** tab.
+
+**What is the URL for documentation on reverting a commit?**
+[https://docs.github.com/en/get-started/using-git/about-commit-history#reverting-a-commit](https://docs.github.com/en/get-started/using-git/about-commit-history#reverting-a-commit)
+
+**How do you revert a commit?**
+ go to the commit, then click **Revert** and confirm. 
+Or To revert a commit in **GitHub Desktop**:  
+1. Click **History** in the left sidebar.  
+2. Right-click the commit you want to revert.  
+3. Select **Revert Changes in Commit**. 
+
+## Git-flavored markdown
+**What is the name of the page or URL in GitHub documentation where there's information on how to format your Markdown for GitHub?** 
+The page is called **"Mastering Markdown"**.  
+Here is the link:  
+[https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)
+
+GitHub also has updated documentation under **"Basic writing and formatting syntax"**:  
+[https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
+**What precedes a second-level heading in Github markdown?**
+Two hash marks (`##`).
+**How do you indicate text that has been struckthrough?**
+Use double tildes ~~ 
+
+~~struckthrough~~
+
+**How do you create a hyperlink in your markdown?**
+Use square brackets for the text and parentheses for the URL: 
+[Visit GitHub](https://github.com) 
+
+**How do you link to a section in the same or another markdown file?**
+Use a hash # plus the heading name (lowercase, spaces replaced with -)
+EX: [Link to section](#section-title) 
+**What are the three possible symbols for indicating an unordered list?**
+- Item one 
+* Item two
++ Item three 
+
+**Format the following text into a footnote:**
+Main text: Alex Wingate went to William and Mary.(place footnote here)  
+Footnote text: William and Mary is a university in Williamsburg, VA founded in 1693.  
+Bonus: make "William and Mary" a hyperlink to W&M's website. 
+
+Main text:  
+Alex Wingate went to [William and Mary](https://www.wm.edu).[^1]  
+
+[^1]: [William and Mary](https://www.wm.edu) is a university in Williamsburg, VA founded in 1693. 
